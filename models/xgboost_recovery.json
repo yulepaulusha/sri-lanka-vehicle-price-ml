@@ -1,0 +1,15 @@
+{
+  "embedded_native_sha256": "39fbc0439ea858f0d885205ee4b2ef28703490f417145b15cd8fb7f3a4c944ee",
+  "source_pickle_sha256": "0724bd41808dc73bc55c19680abb1601481446703378e16927706746e8e01cb7",
+  "method": "Extracted unchanged native Model UBJSON section; loaded using Booster.load_model; exported using XGBRegressor.save_model. No fitting or tree modifications.",
+  "reason": "Original Colab Config snapshot raises input stream corrupted on Windows XGBoost 3.4.1.",
+  "MAE": 6.977543129509834,
+  "RMSE": 21.337788843885715,
+  "R2": 0.8083167199201853,
+  "reference_prediction": 30.032577514648438,
+  "portable_vs_recovered_test_predictions": "exactly equal on all 1,954 test rows",
+  "files": {
+    "xgboost_model.ubj": "e7658950dbeabb9e1dc1f3b60f140c6ef3385a1721fd2e97154664aeace6d883",
+    "xgboost_preprocessor.pkl": "19ee109e443f50fb1e4193b90f45c8b82d3ce3191e5a354b534c20c4f3c397e8"
+  }
+}
